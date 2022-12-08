@@ -1,0 +1,174 @@
+body {
+	height: 100%;
+	width: 100%;
+	/* background-color: #1b4332; */
+
+	background-image: linear-gradient(
+			30deg,
+			#133225 12%,
+			transparent 12.5%,
+			transparent 87%,
+			#133225 87.5%,
+			#133225
+		),
+		linear-gradient(
+			150deg,
+			#133225 12%,
+			transparent 12.5%,
+			transparent 87%,
+			#133225 87.5%,
+			#133225
+		),
+		linear-gradient(
+			30deg,
+			#133225 12%,
+			transparent 12.5%,
+			transparent 87%,
+			#133225 87.5%,
+			#133225
+		),
+		linear-gradient(
+			150deg,
+			#133225 12%,
+			transparent 12.5%,
+			transparent 87%,
+			#133225 87.5%,
+			#133225
+		),
+		linear-gradient(
+			60deg,
+			rgba(19, 50, 37, 0.5) 25%,
+			transparent 25.5%,
+			transparent 75%,
+			rgba(19, 50, 37, 0.5) 75%,
+			rgba(19, 50, 37, 0.5)
+		),
+		linear-gradient(
+			60deg,
+			rgba(19, 50, 37, 0.5) 25%,
+			transparent 25.5%,
+			transparent 75%,
+			rgba(19, 50, 37, 0.5) 75%,
+			rgba(19, 50, 37, 0.5)
+		);
+	background-size: 36px 63px;
+	background-position: 0 0, 0 0, 18px 31.5px, 18px 31.5px, 0 0, 18px 31.5px;
+	background-color: #112b21;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	/* margin: 4rem;
+  background-color: #606c38;
+  height: 800px;
+  padding: 10px;
+
+  border-radius: 8px;
+  box-shadow: 0px 2px 3px 1px #4d610b; */
+}
+
+.punchline {
+	display: flex;
+	color: white;
+	margin-top: 3rem;
+	font-family: "jazz LET", sans-serif;
+	font-size: large;
+
+	flex-direction: row;
+}
+
+.main-content-wrapper {
+	display: flex;
+	width: 600px;
+	min-height: 400px;
+
+	margin: 3rem;
+	border: 2px solid #000000;
+	border-radius: 30px;
+	padding: 10px;
+	/* background-color: #1b4332; */
+
+	background: rgba(27, 67, 50, 0.75);
+	-webkit-backdrop-filter: blur(16px);
+	backdrop-filter: blur(16px);
+
+	box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.48);
+	-webkit-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.48);
+	-moz-box-shadow: 0px 3px 9px 1px rgba(0, 0, 0, 0.48);
+
+	justify-content: center;
+}
+
+.main-content {
+	margin: 1rem;
+	display: flex;
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.header {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+
+	color: #b7e4c7;
+	font-weight: 900;
+	font-size: 50px;
+}
+
+.fifa {
+	color: #4e9059;
+	font-size: 30px;
+
+	-webkit-text-stroke: 2px rgb(9, 68, 10);
+}
+
+.year {
+	font-family: "Sofia", sans-serif;
+	color: red;
+}
+.one {
+	color: bisque;
+	font-size: 40px;
+}
+.thirty-two {
+	color: rgb(253, 212, 162);
+	font-size: 30px;
+}
+
+.countries {
+	text-align: left;
+	margin: 1rem;
+	padding: 1rem;
+
+	border: 3px solid rgb(12, 38, 13);
+	border-radius: 10px;
+}
+
+.competitors {
+	border-spacing: 5px;
+	border-collapse: separate;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
