@@ -184,6 +184,32 @@ body {
 	border-radius: 10px;
 }
 
+.pastwinners {
+	text-align: left;
+	margin: 1rem;
+	padding: 1rem;
+
+	border: 3px solid rgb(12, 38, 13);
+	border-radius: 10px;
+}
+
+.pastwinners p {
+	width: 180px;
+}
+
+.pastwinners p:nth-child(even) {
+	float: right;
+}
+
+.pastwinners p:nth-child(odd) {
+	float: left;
+}
+
+.winners-year {
+	font-weight: 500;
+	color: rgb(253, 212, 162);
+}
+
 .competitors {
 	border-spacing: 5px;
 	border-collapse: separate;
