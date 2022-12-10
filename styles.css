@@ -193,6 +193,31 @@ body {
 	border-radius: 10px;
 }
 
+.goal {
+	border: 3px solid rgb(12, 38, 13);
+	border-radius: 10px;
+	padding: 1rem;
+	color: rgb(253, 212, 162);
+	position: relative;
+}
+
+.goal-vid {
+	border-radius: 15px;
+	border: 2px solid rgb(10, 33, 10);
+
+	filter: brightness(50%);
+}
+
+.play-button {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	left: 50%;
+	top: 57%;
+	margin-left: -48px; /*half of the width */
+	margin-top: -48px; /*half of the height */
+}
+
 .pastwinners p {
 	width: 180px;
 }
@@ -210,9 +235,31 @@ body {
 	color: rgb(253, 212, 162);
 }
 
+.hidden-anchor {
+	position: relative;
+	top: -200px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+
+	border-top: 2px solid black;
+
+	padding-left: 1rem;
+	padding-right: 1rem;
+
+	justify-content: center;
+	align-items: center;
+}
+
 .competitors {
 	border-spacing: 5px;
 	border-collapse: separate;
+}
+
+.gotos {
+	padding: 1rem;
 }
 
 a:link {
