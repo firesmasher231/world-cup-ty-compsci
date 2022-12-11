@@ -81,7 +81,9 @@ body {
 
 .main-content-wrapper {
 	display: flex;
-	width: 600px;
+	/* width: 600px; */
+	width: 30%;
+	min-width: 300px;
 	min-height: 400px;
 
 	margin-left: 3rem;
