@@ -82,7 +82,8 @@ body {
 .main-content-wrapper {
 	display: flex;
 	/* width: 600px; */
-	width: 30%;
+	width: 40%;
+	max-width: 600px;
 	min-width: 300px;
 	min-height: 400px;
 
@@ -122,9 +123,17 @@ body {
 	align-items: center;
 	flex-direction: row-reverse;
 
+	text-align: center;
+	flex-wrap: wrap-reverse;
+
 	color: #b7e4c7;
 	font-weight: 900;
 	font-size: 50px;
+}
+
+.cup-img {
+	position: relative;
+	left: 0;
 }
 
 .navbar {
@@ -193,6 +202,55 @@ body {
 
 	border: 3px solid rgb(12, 38, 13);
 	border-radius: 10px;
+}
+
+.info {
+	text-align: left;
+	padding: 1rem;
+	margin: 1rem;
+
+	border: 3px solid rgb(12, 38, 13);
+	border-radius: 10px;
+}
+
+.info p {
+	margin: 0;
+}
+
+.fact {
+	display: flex;
+	flex-direction: row;
+}
+
+.fact-punchline {
+	margin-bottom: 1rem;
+}
+
+.facts-wrapper {
+	display: block;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.facts-numbers {
+	font-family: "Poppins", sans-serif;
+	font-size: 55px;
+	font-weight: 600;
+	transition: all 0.2s ease-in;
+	margin-right: 10px;
+	margin-left: 20px;
+
+	color: #b7e4c7;
+}
+
+.facts-text {
+	border-top: 2px solid #b7e4c7;
+	line-height: 26px;
+	padding-top: 5px;
+
+	text-align: left;
+	margin-left: 0.5rem;
 }
 
 .goal {
